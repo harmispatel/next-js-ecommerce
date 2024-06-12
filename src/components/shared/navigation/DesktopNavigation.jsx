@@ -19,22 +19,22 @@ export default function DesktopNavigation() {
                         className="menu"
                     />
                     <ul className="navigation__extra">
-                        <li>
+                        {/* <li>
                             <Link href={'/vendor/become-a-vendor'}>
                                 Sell on Martfury
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href={'/account/order-tracking'}>
                                 Track your order
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <CurrencyDropdown />
                         </li>
                         <li>
                             <LanguageSwicher />
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

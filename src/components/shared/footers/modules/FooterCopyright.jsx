@@ -3,7 +3,7 @@ import React from 'react';
 const FooterCopyright = () => (
     <div className="ps-footer__copyright">
         <p>&copy; 2024 Martfury. All Rights Reserved</p>
-        <p>
+        {/* <p>
             <span>We Using Safe Payment For:</span>
             <a href="#">
                 <img src="/static/img/payment-method/1.jpg" alt="Martfury" />
@@ -20,7 +20,7 @@ const FooterCopyright = () => (
             <a href="#">
                 <img src="/static/img/payment-method/5.jpg" alt="Martfury" />
             </a>
-        </p>
+        </p> */}
     </div>
 );
 

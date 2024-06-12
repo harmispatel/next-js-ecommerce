@@ -7,12 +7,12 @@ const FooterWidgets = () => (
             <h4 className="widget-title">Contact us</h4>
             <div className="widget_content">
                 <p>Call us 24/7</p>
-                <h3>1800 97 97 69</h3>
+                <h3>1800 00 00 00</h3>
                 <p>
                     502 New Design Str, Melbourne, Australia <br />
-                    <a href="mailto:contact@martfury.co">contact@martfury.co</a>
+                    <a href="mailto:contact@ecommerce.co">contact@ecommerce.co</a>
                 </p>
-                <ul className="ps-list--social">
+                {/* <ul className="ps-list--social">
                     <li>
                         <a className="facebook" href="#">
                             <i className="fa fa-facebook" />
@@ -33,30 +33,34 @@ const FooterWidgets = () => (
                             <i className="fa fa-instagram" />
                         </a>
                     </li>
-                </ul>
+                </ul> */}
             </div>
         </aside>
         <aside className="widget widget_footer">
             <h4 className="widget-title">Quick links</h4>
             <ul className="ps-list--link">
                 <li>
-                    <Link href="/page/blank">Policy</Link>
+                    <Link href="/page/privacy-policy">Privacy & Policy</Link>
                 </li>
 
                 <li>
-                    <Link href="/page/blank">Term & Condition</Link>
+                    <Link href="/page/terms">Term & Condition</Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">Shipping</Link>
+                    <Link href="/page/shipping">Shipping</Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">Return</Link>
+                    <Link href="/page/return-policy">Return</Link>
                 </li>
                 <li>
                     <Link href="/page/faqs">FAQs</Link>
                 </li>
+                <li>
+                    <Link href="/page/quality-process">Quality Process</Link>
+                </li>
             </ul>
         </aside>
+
         <aside className="widget widget_footer">
             <h4 className="widget-title">Company</h4>
             <ul className="ps-list--link">
@@ -64,16 +68,20 @@ const FooterWidgets = () => (
                     <Link href="/page/about-us">About Us</Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">Affilate</Link>
+                    <Link href="/page/affilate">Affilate</Link>
                 </li>
                 <li>
-                    <Link href="/page/blank">Career</Link>
+                    <Link href="/page/career">Career</Link>
                 </li>
                 <li>
-                    <Link href="/page/contact-us">Contact</Link>
+                    <Link href="/page/contact-us">Contact Us</Link>
+                </li>
+                <li>
+                    <Link href="/page/why-choose-us">Why Choose Us?</Link>
                 </li>
             </ul>
         </aside>
+
         <aside className="widget widget_footer">
             <h4 className="widget-title">Bussiness</h4>
             <ul className="ps-list--link">

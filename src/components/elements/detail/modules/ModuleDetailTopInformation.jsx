@@ -7,7 +7,7 @@ const ModuleDetailTopInformation = ({ product }) => {
         product.attributes;
 
     const productBrandName = useMemo(() => {
-        return product_brand.length > 0 ? product_brand[0].name : 'No Brand';
+        return product_brand?.length > 0 ? product_brand[0]?.name : 'No Brand';
     }, [product_brand]);
 
     const productPrice = useMemo(() => {

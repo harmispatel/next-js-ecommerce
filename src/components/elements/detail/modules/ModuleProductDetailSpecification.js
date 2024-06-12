@@ -5,11 +5,11 @@ const ModuleProductDetailSpecification = ({ product }) => {
     const { product_categories } = product.attributes;
 
     const productCategories = useMemo(() => {
-        if (product_categories.length === 0) return <p>No category found.</p>;
+        if (product_categories?.length === 0) return <p>No category found.</p>;
         else {
-            return product_categories.data.map((category) => (
-                <Link href={`/category/${category.slug}`} key={category.id}>
-                    {category.attributes.title}
+            return product_categories?.data.map((category) => (
+                <Link href={`/category/${category?.slug}`} key={category.id}>
+                    {category?.attributes?.title}
                 </Link>
             ));
         }

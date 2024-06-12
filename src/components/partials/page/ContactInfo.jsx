@@ -12,8 +12,8 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Contact Directly</h4>
                             <p>
-                                <a href="mailto:contact@martfury.com">
-                                    contact@martfury.com
+                                <a href="mailto:contact@ecommerce.com">
+                                    contact@ecommerce.com
                                 </a>
                                 <span>(+004) 912-3548-07</span>
                             </p>
@@ -35,7 +35,7 @@ const ContactInfo = () => (
                             <h4>Work With Us</h4>
                             <p>
                                 <span>Send your CV to our email:</span>
-                                <a href="#">career@martfury.com</a>
+                                <a href="#">career@ecommerce.com</a>
                             </p>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Customer Service</h4>
                             <p>
-                                <a href="#">customercare@martfury.com</a>
+                                <a href="#">customercare@ecommerce.com</a>
                                 <span>(800) 843-2446</span>
                             </p>
                         </div>
@@ -52,7 +52,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Media Relations</h4>
                             <p>
-                                <a href="#">media@martfury.com</a>
+                                <a href="#">media@ecommerce.com</a>
                                 <span>(801) 947-3564</span>
                             </p>
                         </div>
@@ -61,7 +61,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Vendor Support</h4>
                             <p>
-                                <a href="#">vendorsupport@martfury.com</a>
+                                <a href="#">vendorsupport@ecommerce.com</a>
                                 <span>(801) 947-3100</span>
                             </p>
                         </div>
